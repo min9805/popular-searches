@@ -34,8 +34,8 @@ public class SwaggerConfig {
 
     private Info apiInfo() {
         return new Info()
-                .title("Search")
-                .description("Search API")
+                .title("Search-Rank")
+                .description("실시간 검색어 순위 API")
                 .version(version);
     }
 

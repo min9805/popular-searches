@@ -25,7 +25,6 @@ public class SearchService {
             System.out.println(e.toString());
         }
     }
-    
 
     // 인기검색어 리스트 1위~10위까지
     public List<SearchRankResponse> SearchRankList() {
