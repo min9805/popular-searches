@@ -1,3 +1,5 @@
+# 실시간 검색어 순위 서비스
+
 ## Elastic Search
 
 실제 검색 과정이라면 검색 후 결과까지 반환해야합니다.
@@ -13,6 +15,17 @@
 ## Redis
 
 실시간성 성격을 띄고 있기 때문에 캐시를 적용하였습니다. Redis 의 sorted set 구조를 사용하였습니다.
+
+### Sorted Set
+
+Redis에서 제공해주는 자료구조 중 하나인 Sorted Set(또는 ZSET)은 Set의 특성을 그대로 가지면서 추가적으로 저장된 value들의 순서도 관리해줍니다.
+이 때 이 순서를 위해 각 value에 대해 score를 필요에 맞게 설정할 수 있으며, 이 score를 기반으로 정렬을 수행합니다.
+
+- key: `search_rank`
+- value: `keyword`
+- score: `count`
+- score 는 count 를 기준으로 정렬합니다.
+-
 
 # 진행하면서 고민되었던 점
 
