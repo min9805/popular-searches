@@ -2,15 +2,13 @@ spring:
   application:
     name: search
 
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/search?useSSL=false&serverTimezone=UTC
-    username: root
-    password: root
-
   data:
     redis:
       host: localhost
       port: 6379
+    elasticsearch:
+      repositories:
+        enabled: true
+      url: localhost:9200
 
 version: 1.0.0

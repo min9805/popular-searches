@@ -1,0 +1,21 @@
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword1", "tenMinCount": 12, "sixtyMinCount": 64 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword2", "tenMinCount": 15, "sixtyMinCount": 70 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword3", "tenMinCount": 8, "sixtyMinCount": 55 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword4", "tenMinCount": 20, "sixtyMinCount": 75 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword5", "tenMinCount": 18, "sixtyMinCount": 80 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword6", "tenMinCount": 14, "sixtyMinCount": 68 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword7", "tenMinCount": 10, "sixtyMinCount": 60 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword8", "tenMinCount": 22, "sixtyMinCount": 85 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword9", "tenMinCount": 11, "sixtyMinCount": 63 }
+{ "index" : { "_index" : "keyword" } }
+{ "startDate": "2024-06-21 10:10", "keyword": "keyword10", "tenMinCount": 19, "sixtyMinCount": 78 }
+
